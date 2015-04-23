@@ -16,13 +16,13 @@ Image credits: unsplash.com
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #f39c12;
-    border-color: #f39c12;
+    background-color: #fff;
+    border-color: #fff;
     opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   opacity: 1;
 }
 
@@ -32,10 +32,10 @@ Image credits: unsplash.com
 .hero {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 44%;
     z-index: 2;
     color: #fff;
-    text-align: center;
+ 
     text-transform: uppercase;
     text-shadow: 1px 1px 0 rgba(0,0,0,.75);
       -webkit-transform: translate3d(-50%,-50%,0);
@@ -106,7 +106,7 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(http://i.imgur.com/inM3IgM.jpg); 
+  background-image: url(../img/slides/1.png); 
 }
 .fade-carousel .slides .slide-2 {
   background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
